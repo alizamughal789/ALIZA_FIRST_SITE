@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-image: url(ambu\ \(1\).jpg);
+}
+nav{
+background-color:black;
+font-size: 1.4rem;
+padding: 1rem 0px;
+}
+nav ul a{
+color:white;
+text-decoration: none;
+}
+ nav ul a li {
+display: inline;
+margin: 0px 0px 0px 2rem;      
+}
+nav ul a li:hover{
+    border: 2px solid rgb(179, 12, 12);
+    border-radius: 5px;
+}
+nav ul{
+text-align: center;
+}
+button{
+    color: #0b0b0b;
+    position: absolute;
+    margin: 0px 0px 0px 19rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    outline: none;
+}
+
+button:hover{
+    background-color:rgb(179, 12, 12);
+}
+input{
+    color: #0b0b0b;
+    /* text-align: center; */
+    position: absolute;
+    margin: 0px 0px 0px 6.5rem;
+    font-size: 0.9rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    outline: none;
+}
+#logo{
+    margin:0rem 60rem 0px 0rem;
+    position: absolute;
+    margin: -2px 0px 0px -24.9rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#logo:hover{
+    border: none;
+}
+span{
+color: rgb(179, 12, 12);
+font-size: 1.8rem;
+}
+div{
+    text-align: center;
+    margin: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    text-shadow: #0b0b0b 5px 5px 5px;
+}
+div button{
+    padding: 10px 20px;
+    margin: 3rem 15rem 0px -5rem;
+    font-size: x-large; 
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    border: 2px solid black;
+    border-radius: 2.5rem;
+    transition: 0.2s ease-in-out;
+}
+div button:hover{
+    transform: scale(1.1);
+    background-color: rgb(179, 12, 12);
+    cursor: pointer;
+}
+ body{
+   background-image: url('gymm.avif');
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 100vh;
+   color: aliceblue;
+   /* background: black; */
+
+   /* width: 90vh; */
+ }
+ div img{
+    background-size: cover;
+    position: absolute;
+    margin: 50px;
+ }
+ .service{
+    /* display: flex; */
+    /* justify-content: space-evenly; */
+    background-color: #0b0b0b;
+    /* align-items: center; */
+    text-align: center;
+    padding: 0rem;
+ }
+ .service img{
+    width: 30%;
+    margin: 9rem 0px 0px 0px;
+    height: 16rem;
+    padding: 1rem;
+    transition: 0.5s ease-in-out;
+ }
+.service img:hover{
+    transform: scale(1.1);
+}
+
+
+
+#search{
+    /* padding: 0rem 0px 5rem 0px; */
+    height: 8.5rem;
+}
+
+.service h1{
+    position: absolute;
+    padding: 4rem 0px 0px 33rem;
+    margin: -0.5rem -15rem 0px 0px;
+    font-weight: bolder;
+    color: beige;
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    
+ }
